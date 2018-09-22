@@ -29,7 +29,11 @@
 
 
 #Add your function here!
-
+def total_stats(dictList):
+    totalDamage = {}
+    for i in dictList:
+        totalDamage[i['name']] = i['hp'] + i['attack'] + i['defense'] + i['special attack'] + i['special defense'] +i['speed']
+    return totalDamage
 
 
 #Below are some lines of code that will test your function.
