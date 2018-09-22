@@ -45,9 +45,7 @@
 #Write your function here!
 def reader(fileName):
     assignmentInfo = open(fileName)
-    
     assignmentDict ={}
-    
     for line in assignmentInfo:        
         assignmentDict[line.split()[1]] = {'number': float(line.split()[0]), 'grade': 
         float(line.split()[2]), 'total': float(line.split()[3]), 'weight': 

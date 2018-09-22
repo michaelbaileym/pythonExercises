@@ -21,12 +21,12 @@
 
 
 #Write your code here!
-class Number:
-    def __init__(self, value, even):
-        self.value = value
-        self.even = even
+    class Number:
+        def __init__(self, value, even):
+            self.value = value
+            self.even = even
 
-number_instance = Number(101, False)
+    number_instance = Number(101, False)
             
 
 #Note that this exercise does not print anything by

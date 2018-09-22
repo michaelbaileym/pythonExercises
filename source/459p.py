@@ -35,13 +35,11 @@ def length_words(inputString):
             if letter not in ",.:;'!?":
                 newString += letter
     newString = newString.split()
-
     for word in newString:
         if len(word) in lengthDict:
             lengthDict[len(word)].append(word)
         else:
            lengthDict[len(word)] = [word] 
-
     return lengthDict
 
 
